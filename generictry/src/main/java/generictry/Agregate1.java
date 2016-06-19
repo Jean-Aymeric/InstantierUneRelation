@@ -13,7 +13,7 @@ public class Agregate1 {
 	/**
 	 *
 	 */
-	public void start() {
+	public final void start() {
 		final A<B> a = new A<B>();
 		final B b = new B();
 

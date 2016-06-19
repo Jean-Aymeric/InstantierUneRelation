@@ -1,6 +1,5 @@
 package generictry.agregate1;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class A.
  *
@@ -18,7 +17,7 @@ public class A<TB extends B> {
 	 *
 	 * @return the b
 	 */
-	public TB getB() {
+	public final TB getB() {
 		return this.b;
 	}
 
@@ -28,7 +27,7 @@ public class A<TB extends B> {
 	 * @param b
 	 *          the new b
 	 */
-	public void setB(final TB b) {
+	public final void setB(final TB b) {
 		this.b = b;
 	}
 }
