@@ -5,4 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Master POM</name>
+  <modules>
+  	<module>generictry</module>
+  	<module>main</module>
+  </modules>
 </project>
