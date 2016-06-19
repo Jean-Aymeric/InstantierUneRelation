@@ -1,0 +1,11 @@
+language:
+  - java
+  
+jdk:
+  - oraclejdk8
+  
+script:
+  - mvn clean compile
+ 
+after_success:
+  - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/master/sputnik-ci.py)
